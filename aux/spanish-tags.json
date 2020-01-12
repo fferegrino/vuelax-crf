@@ -1,0 +1,457 @@
+{
+    "ao0000": {
+        "category": "Adjectives",
+        "description": "Adjective (ordinal)",
+        "examples": "primera, segundo, \u00faltimos"
+    },
+    "aq0000": {
+        "category": "Adjectives",
+        "description": "Adjective (descriptive)",
+        "examples": "populares, elegido, emocionada, andaluz"
+    },
+    "cc": {
+        "category": "Conjunctions",
+        "description": "Conjunction (coordinating)",
+        "examples": "y, o, pero"
+    },
+    "cs": {
+        "category": "Conjunctions",
+        "description": "Conjunction (subordinating)",
+        "examples": "que, como, mientras"
+    },
+    "da0000": {
+        "category": "Determiners",
+        "description": "Article (definite)",
+        "examples": "el, la, los, las"
+    },
+    "dd0000": {
+        "category": "Determiners",
+        "description": "Demonstrative",
+        "examples": "este, esta, esos"
+    },
+    "de0000": {
+        "category": "Determiners",
+        "description": "\"Exclamative\" (TODO)",
+        "examples": "qu\u00e9 (\u00a1Qu\u00e9 pobre!)"
+    },
+    "di0000": {
+        "category": "Determiners",
+        "description": "Article (indefinite)",
+        "examples": "un, muchos, todos, otros"
+    },
+    "dn0000": {
+        "category": "Determiners",
+        "description": "Numeral",
+        "examples": "tres, doscientas"
+    },
+    "do0000": {
+        "category": "Determiners",
+        "description": "Numeral (ordinal)",
+        "examples": "el 65 aniversario"
+    },
+    "dp0000": {
+        "category": "Determiners",
+        "description": "Possessive",
+        "examples": "sus, mi"
+    },
+    "dt0000": {
+        "category": "Determiners",
+        "description": "Interrogative",
+        "examples": "cu\u00e1ntos, qu\u00e9, cu\u00e1l"
+    },
+    "f0": {
+        "category": "Punctuation",
+        "description": "Other",
+        "examples": "&, @"
+    },
+    "faa": {
+        "category": "Punctuation",
+        "description": "Inverted exclamation mark",
+        "examples": "\u00a1"
+    },
+    "fat": {
+        "category": "Punctuation",
+        "description": "Exclamation mark",
+        "examples": "!"
+    },
+    "fc": {
+        "category": "Punctuation",
+        "description": "Comma",
+        "examples": ","
+    },
+    "fca": {
+        "category": "Punctuation",
+        "description": "Left bracket",
+        "examples": "["
+    },
+    "fct": {
+        "category": "Punctuation",
+        "description": "Right bracket",
+        "examples": "]"
+    },
+    "fd": {
+        "category": "Punctuation",
+        "description": "Colon",
+        "examples": ":"
+    },
+    "fe": {
+        "category": "Punctuation",
+        "description": "Double quote",
+        "examples": "\""
+    },
+    "fg": {
+        "category": "Punctuation",
+        "description": "Hyphen",
+        "examples": "-"
+    },
+    "fh": {
+        "category": "Punctuation",
+        "description": "Forward slash",
+        "examples": "/"
+    },
+    "fia": {
+        "category": "Punctuation",
+        "description": "Inverted question mark",
+        "examples": "\u00bf"
+    },
+    "fit": {
+        "category": "Punctuation",
+        "description": "Question mark",
+        "examples": "?"
+    },
+    "fp": {
+        "category": "Punctuation",
+        "description": "Period / full-stop",
+        "examples": "."
+    },
+    "fpa": {
+        "category": "Punctuation",
+        "description": "Left parenthesis",
+        "examples": "("
+    },
+    "fpt": {
+        "category": "Punctuation",
+        "description": "Right parenthesis",
+        "examples": ")"
+    },
+    "fra": {
+        "category": "Punctuation",
+        "description": "Left guillemet / angle quote",
+        "examples": "\u00ab"
+    },
+    "frc": {
+        "category": "Punctuation",
+        "description": "Right guillemet / angle quote",
+        "examples": "\u00bb"
+    },
+    "fs": {
+        "category": "Punctuation",
+        "description": "Ellipsis",
+        "examples": "..., etc\u00e9tera"
+    },
+    "ft": {
+        "category": "Punctuation",
+        "description": "Percent sign",
+        "examples": "%"
+    },
+    "fx": {
+        "category": "Punctuation",
+        "description": "Semicolon",
+        "examples": ";"
+    },
+    "fz": {
+        "category": "Punctuation",
+        "description": "Single quote",
+        "examples": "'"
+    },
+    "i": {
+        "category": "Interjections",
+        "description": "Interjection",
+        "examples": "ay, ojal\u00e1, hola"
+    },
+    "nc00000": {
+        "category": "Nouns",
+        "description": "Unknown common noun (neologism, loanword)",
+        "examples": "minidisc, hooligans, re-flotamiento"
+    },
+    "nc0n000": {
+        "category": "Nouns",
+        "description": "Common noun (invariant number)",
+        "examples": "hip\u00f3tesis, campus, golf"
+    },
+    "nc0p000": {
+        "category": "Nouns",
+        "description": "Common noun (plural)",
+        "examples": "a\u00f1os, elecciones"
+    },
+    "nc0s000": {
+        "category": "Nouns",
+        "description": "Common noun (singular)",
+        "examples": "lista, hotel, partido"
+    },
+    "np00000": {
+        "category": "Nouns",
+        "description": "Proper noun",
+        "examples": "M\u00e1laga, Parlamento, UFINSA"
+    },
+    "p0000000": {
+        "category": "Pronouns",
+        "description": "Impersonal se",
+        "examples": "se"
+    },
+    "pd000000": {
+        "category": "Pronouns",
+        "description": "Demonstrative pronoun",
+        "examples": "\u00e9ste, eso, aquellas"
+    },
+    "pe000000": {
+        "category": "Pronouns",
+        "description": "\"Exclamative\" pronoun",
+        "examples": "qu\u00e9"
+    },
+    "pi000000": {
+        "category": "Pronouns",
+        "description": "Indefinite pronoun",
+        "examples": "muchos, uno, tanto, nadie"
+    },
+    "pn000000": {
+        "category": "Pronouns",
+        "description": "Numeral pronoun",
+        "examples": "dos miles, ambos"
+    },
+    "pp000000": {
+        "category": "Pronouns",
+        "description": "Personal pronoun",
+        "examples": "ellos, lo, la, nos"
+    },
+    "pr000000": {
+        "category": "Pronouns",
+        "description": "Relative pronoun",
+        "examples": "que, quien, donde, cuales"
+    },
+    "pt000000": {
+        "category": "Pronouns",
+        "description": "Interrogative pronoun",
+        "examples": "c\u00f3mo, cu\u00e1nto, qu\u00e9"
+    },
+    "px000000": {
+        "category": "Pronouns",
+        "description": "Possessive pronoun",
+        "examples": "tuyo, nuestra"
+    },
+    "rg": {
+        "category": "Adverbs",
+        "description": "Adverb (general)",
+        "examples": "siempre, m\u00e1s, personalmente"
+    },
+    "rn": {
+        "category": "Adverbs",
+        "description": "Adverb (negating)",
+        "examples": "no"
+    },
+    "sp000": {
+        "category": "Prepositions",
+        "description": "Preposition",
+        "examples": "en, de, entre"
+    },
+    "va00000": {
+        "category": "Verbs",
+        "description": "Verb (unknown)",
+        "examples": "should"
+    },
+    "vag0000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, gerund)",
+        "examples": "habiendo"
+    },
+    "vaic000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, indicative, conditional)",
+        "examples": "habr\u00eda, habr\u00edamos"
+    },
+    "vaif000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, indicative, future)",
+        "examples": "habr\u00e1, habremos"
+    },
+    "vaii000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, indicative, imperfect)",
+        "examples": "hab\u00eda, hab\u00edamos"
+    },
+    "vaip000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, indicative, present)",
+        "examples": "ha, hemos"
+    },
+    "vais000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, indicative, preterite)",
+        "examples": "hubo, hubimos"
+    },
+    "vam0000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, imperative)",
+        "examples": "haya"
+    },
+    "van0000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, infinitive)",
+        "examples": "haber"
+    },
+    "vap0000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, participle)",
+        "examples": "habido"
+    },
+    "vasi000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, subjunctive, imperfect)",
+        "examples": "hubiera, hubi\u00e9ramos, hubiese"
+    },
+    "vasp000": {
+        "category": "Verbs",
+        "description": "Verb (auxiliary, subjunctive, present)",
+        "examples": "haya, hayamos"
+    },
+    "vmg0000": {
+        "category": "Verbs",
+        "description": "Verb (main, gerund)",
+        "examples": "dando, trabajando"
+    },
+    "vmic000": {
+        "category": "Verbs",
+        "description": "Verb (main, indicative, conditional)",
+        "examples": "dar\u00eda, trabajar\u00edamos"
+    },
+    "vmif000": {
+        "category": "Verbs",
+        "description": "Verb (main, indicative, future)",
+        "examples": "dar\u00e1, trabajaremos"
+    },
+    "vmii000": {
+        "category": "Verbs",
+        "description": "Verb (main, indicative, imperfect)",
+        "examples": "daba, trabaj\u00e1bamos"
+    },
+    "vmip000": {
+        "category": "Verbs",
+        "description": "Verb (main, indicative, present)",
+        "examples": "da, trabajamos"
+    },
+    "vmis000": {
+        "category": "Verbs",
+        "description": "Verb (main, indicative, preterite)",
+        "examples": "dio, trabajamos"
+    },
+    "vmm0000": {
+        "category": "Verbs",
+        "description": "Verb (main, imperative)",
+        "examples": "da, d\u00e9, trabaja, trabajes, trabajemos"
+    },
+    "vmn0000": {
+        "category": "Verbs",
+        "description": "Verb (main, infinitive)",
+        "examples": "dar, trabjar"
+    },
+    "vmp0000": {
+        "category": "Verbs",
+        "description": "Verb (main, participle)",
+        "examples": "dado, trabajado"
+    },
+    "vmsi000": {
+        "category": "Verbs",
+        "description": "Verb (main, subjunctive, imperfect)",
+        "examples": "diera, diese, trabaj\u00e1ramos, trabaj\u00e9semos"
+    },
+    "vmsp000": {
+        "category": "Verbs",
+        "description": "Verb (main, subjunctive, present)",
+        "examples": "d\u00e9, trabajemos"
+    },
+    "vsg0000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, gerund)",
+        "examples": "siendo"
+    },
+    "vsic000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, indicative, conditional)",
+        "examples": "ser\u00eda, ser\u00edan"
+    },
+    "vsif000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, indicative, future)",
+        "examples": "ser\u00e1, seremos"
+    },
+    "vsii000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, indicative, imperfect)",
+        "examples": "era, \u00e9ramos"
+    },
+    "vsip000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, indicative, present)",
+        "examples": "es, son"
+    },
+    "vsis000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, indicative, preterite)",
+        "examples": "fue, fuiste"
+    },
+    "vsm0000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, imperative)",
+        "examples": "sea, s\u00e9"
+    },
+    "vsn0000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, infinitive)",
+        "examples": "ser"
+    },
+    "vsp0000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, participle)",
+        "examples": "sido"
+    },
+    "vssf000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, subjunctive, future)",
+        "examples": "fuere"
+    },
+    "vssi000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, subjunctive, imperfect)",
+        "examples": "fuera, fuese, fu\u00e9ramos"
+    },
+    "vssp000": {
+        "category": "Verbs",
+        "description": "Verb (semiauxiliary, subjunctive, present)",
+        "examples": "sea, seamos"
+    },
+    "w": {
+        "category": "Dates",
+        "description": "Date",
+        "examples": "octubre, jueves, 2002"
+    },
+    "word": {
+        "category": "Other",
+        "description": "Emoticon or other symbol",
+        "examples": ":), \u00ae"
+    },
+    "z0": {
+        "category": "Numerals",
+        "description": "Numeral",
+        "examples": "547.000, 04, 52,52"
+    },
+    "zm": {
+        "category": "Numerals",
+        "description": "Numeral qualifier (currency)",
+        "examples": "d\u00f3lares, euros"
+    },
+    "zu": {
+        "category": "Numerals",
+        "description": "Numeral qualifier (other units)",
+        "examples": "km, cc"
+    }
+}
