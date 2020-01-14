@@ -22,42 +22,42 @@ def featurise_token(sentence_tokens, sentence_positions, sentence_pos, current_i
     token_count = len(sentence_tokens)
 
     # Shared features across tokens
-    features = [
-        'bias',
-        f'word.lower={token.lower()}',
-        f'word.istitle={token.istitle()}',
-        f'word.isdigit={is_numeric(token)}',
-        f'word.ispunct={is_punctuation(token)}',
-        f'word.position={position}',
-        f'word.token_count={token_count}',
-        f'postag={pos}'
-    ]
+    features = {
+        'bias': True,
+        'word.lower': token.lower(),
+        'word.istitle': token.istitle(),
+        'word.isdigit': is_numeric(token),
+        'word.ispunct': is_punctuation(token),
+        'word.position': position,
+        'word.token_count': token_count,
+        'postag': pos,
+    }
 
     if current_idx > 0:  # The word is not the first one...
         prev_token = sentence_tokens[current_idx - 1]
         prev_pos = sentence_pos[current_idx - 1]
-        features.extend([
-            f'-1:word.lower={prev_token.lower()}',
-            f'-1:word.istitle={prev_token.istitle()}',
-            f'-1:word.isdigit={is_numeric(prev_token)}',
-            f'-1:word.ispunct={is_punctuation(prev_token)}',
-            f'-1:postag={prev_pos}'
-        ])
+        features.update({
+            '-1:word.lower': prev_token.lower(),
+            '-1:word.istitle': prev_token.istitle(),
+            '-1:word.isdigit': is_numeric(prev_token),
+            '-1:word.ispunct': is_punctuation(prev_token),
+            '-1:postag': prev_pos
+        })
     else:
-        features.append('BOS')
+        features['BOS'] = True
 
     if current_idx < len(sentence_tokens) - 1:  # The word is not the last one...
         next_token = sentence_tokens[current_idx + 1]
         next_pos = sentence_pos[current_idx + 1]
-        features.extend([
-            f'+1:word.lower={next_token.lower()}',
-            f'+1:word.istitle={next_token.istitle()}',
-            f'+1:word.isdigit={is_numeric(next_token)}',
-            f'+1:word.ispunct={is_punctuation(next_token)}',
-            f'+1:postag={next_pos}'
-        ])
+        features.update({
+            '+1:word.lower': next_token.lower(),
+            '+1:word.istitle': next_token.istitle(),
+            '+1:word.isdigit': is_numeric(next_token),
+            '+1:word.ispunct': is_punctuation(next_token),
+            '+1:postag': next_pos
+        })
     else:
-        features.append('EOS')
+        features['EOS'] = True
 
     return features
 

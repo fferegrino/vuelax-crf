@@ -22,7 +22,9 @@ The idea is to create a tagger that will be able to extract this information. Ho
 
 ## POS Tagging
 
-To perform the Part-Of-Speech tagging, we'll be using the [Stanford POS Tagger](https://nlp.stanford.edu/software/tagger.shtml); this tagger (or at least the interface to it) is available to use through Python's NLTK library; however, we need to download some models from the [Stanford's download page](https://nlp.stanford.edu/software/tagger.shtml#Download). In our case, since we are working with spanish, we should download the full model under the *"2017-06-09    new Spanish and French UD models"* subtitle.
+Our algorithm needs more than the tokens themselves to be more reliable; We can add [part of speech](https://en.wikipedia.org/wiki/Part_of_speech) as a feature.
+
+To perform the Part-Of-Speech tagging, we'll be using the [Stanford POS Tagger](https://nlp.stanford.edu/software/tagger.shtml); this tagger (or at least the interface to it) is available to use through Python's NLTK library; however, we need to download some models from the [Stanford's download page](https://nlp.stanford.edu/software/tagger.shtml#Download). In our case, since we are working with spanish, we should download the full model under the *"2017-06-09 new Spanish and French UD models"* subtitle.
 
 Once downloaded, it is necessary to unzip it and keep track of where the files end up being. You could execute:
 
